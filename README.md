@@ -70,7 +70,7 @@ the following JAR to interact with AWS S3 `org.apache.hadoop:hadoop-aws:3.1.2`.
 
 After you've successfully extracted and transformed the data, you can move on to loading said data to Snowflake.
 To this end, you'll require Snowflake credentials stored on AWS Secretsmanager 
-under the following secret `snowflake/capstone/login`.
+under the following secret `snowflake/capstone/config`.
 
 Write Python code that retrieves this secret to leverage in the next step.
 
