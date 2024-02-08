@@ -1,4 +1,6 @@
-pyspark==3.2.0
+pyspark==3.4.1
 pytest
 holidays
 requests
+boto3
+dotenv
